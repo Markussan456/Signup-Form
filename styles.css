@@ -3,3 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+    position: relative;
+    width: 100vh;
+    height: 100vh;
+}
+.bacground{
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.leftside ,.maincontent{
+    border: 2px solid black;
+}
+.leftside{
+    flex: 1.5;
+}
+.maincontent{
+    flex: 3;
+}
