@@ -119,6 +119,19 @@ legend{
     left: 1.9rem;
     width: 9rem;
     height: 3rem;
+    border-radius: 0.5rem;
+    background-color: #5492fd;
+    color: white;
+    border: none;
+     box-shadow: 0 0 4px rgba(21, 94, 168,0.6);
+}
+.createaccbtn:hover{
+    background-color: #2d79fc;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #003591;
 }
 .pabs
 {
@@ -129,4 +142,20 @@ legend{
 label,legend,h2,p,button{
     font-family: 'norsebold';
     letter-spacing: 0.1rem;
+}
+input{
+    appearance: none;
+    border-radius: 0.2rem;
+    background-color: #81affe;
+    padding: 0.5rem;
+    border: 0.1rem;
+    outline: none;
+    box-shadow: 0 0 1px rgba(21, 94, 168,0.3);
+}
+input:focus{
+  outline: 0.1rem black solid;
+  box-shadow: 0 0 10px rgba(21, 94, 168,0.6);
+}
+input:invalid{
+   /* border: 0.05rem rgb(255, 31, 31) solid;*/
 }
