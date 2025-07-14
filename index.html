@@ -23,7 +23,7 @@
 <form id="signupform" action="" method="post">
     <legend>Join Us!</legend>
     <div class="split">
- <label for="first">First Name</label>
+ <label for="first">First Name*</label>
     <input id="first" type="text" required>
     </div>
    
@@ -33,21 +33,21 @@
 </div>
 
      <div class="split">
- <label for="emchik">Email</label>
-    <input id="emchik" type="email">
+ <label for="emchik">Email*</label>
+    <input id="emchik" type="email" required>
     </div>
      <div class="split">
- <label for="teljuk">Phone Number</label>
-    <input id="teljuk" type="tel">
+ <label for="teljuk">Phone Number*</label>
+    <input placeholder="+44-7123-456789" id="teljuk" type="tel" required pattern="^\+\d{1,3}(-\d{2,6}){2,4}$">
     </div>
 
       <div class="split">
- <label for="psw">Password</label>
-    <input id="psw" type="password">
+ <label for="psw">Password*</label>
+    <input id="psw" type="password" required>
     </div>
       <div class="split">
- <label for="conpsw">Confirm Password</label>
-    <input id="conpsw" type="password">
+ <label for="conpsw">Confirm Password*</label>
+    <input id="conpsw" type="password" required>
     </div>
 </form>
         </div>
