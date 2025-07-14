@@ -20,11 +20,11 @@
             <p class="lefttop">Let the breeze bite through you</p>
         </div>
         <div class="rightside middle">
-<form action="" method="post">
+<form id="signupform" action="" method="post">
     <legend>Join Us!</legend>
     <div class="split">
  <label for="first">First Name</label>
-    <input id="first" type="text">
+    <input id="first" type="text" required>
     </div>
    
 <div class="split">
@@ -51,7 +51,10 @@
     </div>
 </form>
         </div>
-        <div class="rightside"></div>
+        <div class="rightside down">
+            <button class="createaccbtn" type="submit" form="signupform">Create Account</button>
+            <p class="pabs">Already Have an account? <a href="">Log in</a></p>
+        </div>
     </div>
     </div>
    

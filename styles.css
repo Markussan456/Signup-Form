@@ -81,7 +81,7 @@ top: 7rem;
     font-size: 1.2rem;
 }
 .middle{
-    margin: 1rem;
+    
    display: flex;
    
    width: 35rem;
@@ -91,14 +91,34 @@ form{
     display: flex;
     padding: 1rem;
     padding-top: 2rem;
-    gap: 1.5rem;
+    gap: 1rem;
    flex-wrap: wrap;
 }
 legend{
     position: absolute;
-    top: 0.2rem;
+    top: 0.4rem;
+    left: 2rem;
 }
 .split{
     width: 10rem;
     height: 3rem;
+    margin-left: 1.3rem;
+}
+.down{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+.createaccbtn{
+    position: absolute;
+    top: 2rem;
+    left: 1.9rem;
+    width: 9rem;
+    height: 3rem;
+}
+.pabs
+{
+    position: absolute;
+    top: 6rem;
+    left: 1rem;
 }
