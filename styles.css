@@ -159,3 +159,9 @@ input:focus{
 input:invalid{
    /* border: 0.05rem rgb(255, 31, 31) solid;*/
 }
+#conpsw:invalid, #psw:invalid{
+    border: 0.09rem solid rgb(172, 48, 48);
+}
+#pswdiks{
+    font-size: 0.7rem;
+}
